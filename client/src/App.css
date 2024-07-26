@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: cornflowerblue;
+    color: white;
+}
